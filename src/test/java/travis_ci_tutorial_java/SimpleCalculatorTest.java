@@ -18,11 +18,11 @@ public class SimpleCalculatorTest {
 		assertEquals(calc.minus(5, 3), 2);
 	}
 
-	@Test
-	public void testMultiply() {
-		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.multiply(2, 2), 3);
-	}
+//	@Test
+//	public void testMultiply() {
+//		SimpleCalculator calc = new SimpleCalculator();
+//		assertEquals(calc.multiply(2, 2), 3);
+//	}
 
 	@Test
 	public void testMultiplyPassed() {
@@ -36,9 +36,9 @@ public class SimpleCalculatorTest {
 		assertEquals(calc.divide(10, 5), 2);
 	}
 
-	@Test
-	public void testDivideByZero() {
-		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.divide(10, 0), 2);
-	}
+//	@Test
+//	public void testDivideByZero() {
+//		SimpleCalculator calc = new SimpleCalculator();
+//		assertEquals(calc.divide(10, 0), 2);
+//	}
 }
